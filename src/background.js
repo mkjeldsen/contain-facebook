@@ -4,7 +4,30 @@ const GOOGLE_CONTAINER_COLOR = "red";
 const GOOGLE_CONTAINER_ICON = "briefcase";
 const GOOGLE_DOMAINS = [
   "google.com",
-  "www.google.com"
+  "www.google.com",
+  "analytics.google.com",
+  "drive.google.com",
+  "docs.google.com",
+  "sheets.google.com",
+  "youtube.com",
+  "www.youtube.com",
+  "fonts.google.com",
+  "fonts.gstatic.com",
+  "adwords.google.com",
+  "abc.xyz",
+  "sites.google.com",
+  "mail.google.com",
+  "inbox.google.com",
+  "goo.gl",
+  "blog.google",
+  "registry.google",
+  "www.registry.google",
+  "news.google.com",
+  "images.google.com",
+  "maps.google.com",
+  "accounts.google.com",
+  "m.youtube.com",
+  "youtu.be"
 ];
 
 const MAC_ADDON_ID = "@testpilot-containers";
