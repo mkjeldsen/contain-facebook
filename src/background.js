@@ -29,6 +29,7 @@ const GOOGLE_DOMAINS = [
   "newsstand.google.com",
   "optimize.google.com",
   "plus.google.com",
+  "policies.google.com",
   "registry.google",
   "santatracker.google.com",
   "sheets.google.com",
