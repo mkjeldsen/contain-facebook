@@ -14,6 +14,7 @@ const GOOGLE_DOMAINS = [
   "calendar.google.com",
   "docs.google.com",
   "drive.google.com",
+  "firebase.google.com",
   "fonts.google.com",
   "fonts.gstatic.com",
   "goo.gl",
