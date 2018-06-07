@@ -12,11 +12,13 @@ const GOOGLE_DOMAINS = [
   "analytics.google.com",
   "blog.google",
   "calendar.google.com",
+  "chrome.google.com",
   "docs.google.com",
   "drive.google.com",
   "firebase.google.com",
   "fonts.google.com",
   "fonts.gstatic.com",
+  "fonts.googleapis.com",
   "goo.gl",
   "google.com",
   "google.dk",
@@ -31,6 +33,7 @@ const GOOGLE_DOMAINS = [
   "optimize.google.com",
   "plus.google.com",
   "policies.google.com",
+  "privacy.google.com",
   "registry.google",
   "santatracker.google.com",
   "sheets.google.com",
@@ -41,8 +44,9 @@ const GOOGLE_DOMAINS = [
   "www.google.dk",
   "www.registry.google",
   "www.youtube.com",
+  "www.gstatic.com",
   "youtu.be",
-  "youtube.com",
+  "youtube.com"
 ];
 
 const MAC_ADDON_ID = "@testpilot-containers";
@@ -101,11 +105,11 @@ async function sendJailedDomainsToMAC () {
       urls: GOOGLE_DOMAINS.map((domain) => {
         return `https://${domain}/`;
       })
-    });
+  });
   } catch (e) {
     // We likely might want to handle this case: https://github.com/mozilla/contain-google/issues/113#issuecomment-380444165
     return false;
-  }
+    }
 }
 
 async function getMACAssignment (url) {
@@ -388,7 +392,7 @@ async function containGoogle (options) {
   return {cancel: true};
 }
 
-(async function init () {
+(async function init() {
   await setupMACAddonListeners();
   macAddonEnabled = await isMACAddonEnabled();
 
