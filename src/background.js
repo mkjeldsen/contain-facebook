@@ -4,6 +4,7 @@ const GOOGLE_CONTAINER_COLOR = "red";
 const GOOGLE_CONTAINER_ICON = "briefcase";
 const GOOGLE_DOMAINS = [
   "abc.xyz",
+  "accounts.blogger.com",
   "accounts.google.com",
   "adwords.com",
   "adwords.dk",
@@ -11,6 +12,7 @@ const GOOGLE_DOMAINS = [
   "adwords.google.dk",
   "analytics.google.com",
   "blog.google",
+  "blogger.com",
   "calendar.google.com",
   "chrome.google.com",
   "docs.google.com",
@@ -22,6 +24,7 @@ const GOOGLE_DOMAINS = [
   "goo.gl",
   "google.com",
   "google.dk",
+  "googletagmanager.com",
   "images.google.com",
   "inbox.google.com",
   "m.youtube.com",
@@ -40,6 +43,7 @@ const GOOGLE_DOMAINS = [
   "sites.google.com",
   "tagmanager.google.com",
   "translate.google.com",
+  "www.blogger.com",
   "www.google.com",
   "www.google.dk",
   "www.registry.google",
