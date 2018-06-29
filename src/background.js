@@ -10,6 +10,7 @@ const GOOGLE_DOMAINS = [
   "adwords.dk",
   "adwords.google.com",
   "adwords.google.dk",
+  "ai.google",
   "analytics.google.com",
   "blog.google",
   "blogger.com",
