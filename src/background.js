@@ -6,6 +6,8 @@ const GOOGLE_DOMAINS = [
   "abc.xyz",
   "accounts.blogger.com",
   "accounts.google.com",
+  "ads.google.com",
+  "ads.google.dk",
   "adwords.com",
   "adwords.dk",
   "adwords.google.com",
